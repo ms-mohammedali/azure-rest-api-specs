@@ -314,6 +314,10 @@
           "description": "The time the policy task was scheduled.",
           "type": "string"
         },
+        "policyRunSummary": {
+          "description": "The execution status of the policy on the account.",
+          "type": "string"
+        },
         "deleteSummary": {
           "$ref": "#/definitions/StorageLifecyclePolicyActionSummaryDetail"
         },
